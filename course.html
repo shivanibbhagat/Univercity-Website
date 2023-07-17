@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;
+700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="web.html"><img src="images/logo.png"></a> 
+           <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="web.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+
+
+<!------course-------->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>We offer helpful courses</p>
+
+    <div class="row">
+        <div class="course-col">
+           <h3>Intermediate</h3>
+           <p>Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript.
+               Responsive Web Design is used in all types of modern web development.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript.
+                Responsive Web Design is used in all types of modern web development.</p>
+         </div>
+         <div class="course-col">
+            <h3>Post-Graduation</h3>
+            <p>Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript.
+                Responsive Web Design is used in all types of modern web development.</p>
+         </div>
+    </div>
+</section>
+
+<!------facilities-------->
+
+<section class="facilities">
+    <h1>OUR FACILITIES</h1>
+    <p>We offer students the best of international engagement 
+        through our Global Campus </p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.jpeg">
+                <h3>World Class Library</h3>
+                <p>It has an extensive collection of books, 
+                    reference materials for the students and faculty. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.jpeg">
+                <h3>Largest Play Ground</h3>
+                <p> Playgrounds play important role in students' daily life for 
+                    fulfilling their interest, development and learning needs</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p> It is self-service restaurant in which students 
+                    select various dishes from an open-counter display.</p>
+            </div>
+        </div>
+</section>
+
+
+<!--------Footer-------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Stay Connected</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by TE A students </p>
+
+</section>
+
+
+
+
+
+
+<!----Javascript for Toggle Menu------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    
+    </script>
+    
+</body>
+</html>
